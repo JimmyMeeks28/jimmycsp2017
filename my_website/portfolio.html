@@ -1,78 +1,108 @@
-<!doctype html>
-	<html lang="en">
-	  <head>
-	      
-	    <meta charset="utf-8">
-	    <title>Portfolio</title>
-	  </head>
-	  <body>
-    
-    <div class="topnav">
+<!DOCTYPE html>
+<html>
+  
+   <div class="topnav">
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
   <a href="portfolio.html">Portfolio</a>
 </div>
-    <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
-</head>
-<body>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>My Portfolio</h1>      
-    <p>These are some of the projects that I have worked on through out the year. Enjoy!</p>
-  </div>
-</div>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    </div>
+    </div>
+  </header>
   
-<div class="container-fluid bg-3 text-center">  
-  <div class="row">
-    <div class="col-sm-3"> 
-      <font color="#47B6F5"></p><font size="6"><p>We worked on Scaratch</p>
-      <a href="https://scratch.mit.edu/projects/202680649/"><img src="images/scratchlogo.png" class="img-responsive" style="width:100%" alt="Image"></a>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://scratch.mit.edu/projects/202680649/"><img src="images/scratchlogo.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Scratch Project</b></p>
+        <p>We created a pongs breaking bricks game in Scratch!</p>
+      </div>
     </div>
-    <div class="col-sm-3">
-      <font color="#47B6F5"><font size="6"><p>Our Whack-A Mole project! Don't hit the human or lose points! this was made in MitAppInventor and can be downloaded onto an Android only.</p>
-      <a target="_blank" href="images/WhackAMole.aia"><img src="images/whackyimage.PNG" class="img-responsive" style="width:100%" alt="Image"></a>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a target="_blank" href="images/WhackAMole.aia"><img src="images/whackyimage.PNG" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>MitAppInventor</b></p>
+        <p>Our Whack-A Mole project! Don't hit the human or lose points! this was made in MitAppInventor and can be downloaded onto an Android only.</p>
+      </div>
     </div>
-    <div class="col-sm-3">
-      <font color="#47B6F5"><p>We made a choice game in python called Deeds! It is about a man who has an hour to live and needs to get to the hospital by crossing the bridge. You can run it in a program that runs python.</p>
-      <a target="_blank" href="images/Deeds.zip"><img src="images/Deedsflowchart.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    <div class="w3-third w3-container">
+      <a target="_blank" href="images/Deeds.zip"><img src="images/Deedsflowchart.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Choice Game in Python</b></p>
+        <p>We made a choice game in python called Deeds! It is about a man who has an hour to live and needs to get to the hospital by crossing the bridge. You can run it in a program that runs python.</p>
+      </div>
     </div>
   </div>
-</div><br>
+  
+  <!-- Second Photo Grid
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+    -->
+ 
 
 
+<!-- End page content -->
+</div>
 
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 
 </body>
 </html>
 
-    <br>
-    
-    <body style="background-color:#d30000;">
-        <body background= "images/pback.jpg"
-</body>
-	  </body>
-	</html>
-	
 
 <style type="text/css">
 
@@ -102,3 +132,4 @@
     background-color: #4CAF50;
     color: white;
 }
+
